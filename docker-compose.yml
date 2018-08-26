@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  ldap-mock:
+    image: rickardl/ldap-mock
+    tty: true
+    ports:
+      - '389:389'
