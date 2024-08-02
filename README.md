@@ -10,7 +10,7 @@ It uses [glauth](https://github.com/glauth/glauth).
 ## Run
 
 ```shell
-docker run -d -p 398:398 rickardl/ldap-mock
+docker run -d -p 389:389 rickardl/ldap-mock
 ```
 
 ## Test
